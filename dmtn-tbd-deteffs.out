@@ -1,0 +1,28 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Study Overview}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Summary of Study Findings}{section.1}% 3
+\BOOKMARK [1][-]{section.2}{Scientific Motivation and Use-Cases for Detection Efficiencies}{}% 4
+\BOOKMARK [2][-]{subsection.2.1}{Completeness, Purity, and Spuriousness}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Transients}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.3}{Active Galactic Nuclei}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.4}{Variable Stars}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.5}{Moving Objects}{section.2}% 9
+\BOOKMARK [1][-]{section.3}{LSST Requirements and Plans Regarding Detection Efficiencies}{}% 10
+\BOOKMARK [2][-]{subsection.3.1}{Observatory System Specifications \(OSS\)}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.2}{Data Management System Requirements \(DMSR\)}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.3}{Data Products Definitions Document \(DPDD\)}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.4}{Data Management Science Pipelines Design}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.5}{Summary of Existing Requirements and Plans}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.6}{Could Detection Efficiencies be Derived from Provided Data Products?}{section.3}% 16
+\BOOKMARK [1][-]{section.4}{Options For Generating LSST Detection Efficiencies}{}% 17
+\BOOKMARK [2][-]{subsection.4.1}{Do Not Generate Detection Efficiencies}{section.4}% 18
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Make Available the Data on Fake Injected Sources}{subsection.4.1}% 19
+\BOOKMARK [2][-]{subsection.4.2}{Generate Detection Efficiencies Without Fake Injection}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.3}{Generate Detection Efficiencies via Fake Injection}{section.4}% 21
+\BOOKMARK [3][-]{subsubsection.4.3.1}{During Alert Production}{subsection.4.3}% 22
+\BOOKMARK [2][-]{subsection.4.4}{On an Intermediate Timescale}{section.4}% 23
+\BOOKMARK [2][-]{subsection.4.5}{During DR Processing}{section.4}% 24
+\BOOKMARK [2][-]{subsection.4.6}{Summary of Options for Generating Detection Efficiencies}{section.4}% 25
+\BOOKMARK [1][-]{section.5}{Options for Fake Point Source Injection Techniques}{}% 26
+\BOOKMARK [2][-]{subsection.5.1}{Simulating New Fake Objects}{section.5}% 27
+\BOOKMARK [2][-]{subsection.5.2}{Simulating Variability in Real Objects}{section.5}% 28

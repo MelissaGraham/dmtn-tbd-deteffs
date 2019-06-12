@@ -1,0 +1,175 @@
+\begin{thebibliography}{25}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{ #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\makeatletter
+\relax
+\def\mn@urlcharsother{\let\do\@makeother \do\$\do\&\do\#\do\^\do\_\do\%\do\~}
+\def\mn@doi{\begingroup\mn@urlcharsother \@ifnextchar [ {\mn@doi@}
+  {\mn@doi@[]}}
+\def\mn@doi@[#1]#2{\def\@tempa{#1}\ifx\@tempa\@empty \href {http://doi.org/#2}
+  {doi:#2}\else \href {http://doi.org/#2} {#1}\fi \endgroup}
+\def\mn@eprint#1#2{\mn@eprint@#1:#2::\@nil}
+\def\mn@eprint@arXiv#1{\href {http://arxiv.org/abs/#1} {\texttt{arXiv:#1}}}
+\def\mn@eprint@ascl#1{\href {http://ascl.net/#1} {\texttt{ascl:#1}}}
+\def\mn@eprint@dblp#1{\href {http://dblp.uni-trier.de/rec/bibtex/#1.xml}
+  {dblp:#1}}
+\def\mn@eprint@#1:#2:#3:#4\@nil{\def\@tempa {#1}\def\@tempb {#2}\def\@tempc
+  {#3}\ifx \@tempc \@empty \let \@tempc \@tempb \let \@tempb \@tempa \fi \ifx
+  \@tempb \@empty \def\@tempb {arXiv}\fi \@ifundefined
+  {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
+  mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
+
+\bibitem[{{Brink} et~al.(2013){Brink}, {Richards}, {Poznanski}
+  et~al.}]{2013MNRAS.435.1047B}
+{Brink}, H., {Richards}, J.W., {Poznanski}, D., et~al., 2013, \mnras, 435, 1047
+  (\mn@eprint {arXiv} {1209.3775}), \mn@doi{10.1093/mnras/stt1306},
+  \href{http://adsabs.harvard.edu/abs/2013MNRAS.435.1047B}{ADS Link}
+
+\bibitem[{{Choi} et~al.(2014){Choi}, {Gibson}, {Becker}
+  et~al.}]{2014ApJ...782...37C}
+{Choi}, Y., {Gibson}, R.R., {Becker}, A.C., et~al., 2014, \apj, 782, 37
+  (\mn@eprint {arXiv} {1312.4957}), \mn@doi{10.1088/0004-637X/782/1/37},
+  \href{http://adsabs.harvard.edu/abs/2014ApJ...782...37C}{ADS Link}
+
+\bibitem[{Claver \& {The LSST Systems Engineering Integrated Project
+  Team}(LSE-29)}]{LSE-29}
+\textbf{[LSE-29]}, Claver, C.F., {The LSST Systems Engineering Integrated
+  Project Team}, 2017,  \emph{ {LSST System Requirements (LSR)}}, \textsf{
+  LSE-29}, \urlprefix\url{https://ls.st/LSE-29}
+
+\bibitem[{Claver \& {The LSST Systems Engineering Integrated Project
+  Team}(LSE-30)}]{LSE-30}
+\textbf{[LSE-30]}, Claver, C.F., {The LSST Systems Engineering Integrated
+  Project Team}, 2018,  \emph{ {Observatory System Specifications (OSS)}},
+  \textsf{ LSE-30}, \urlprefix\url{https://ls.st/LSE-30}
+
+\bibitem[{{Dilday} et~al.(2008){Dilday}, {Kessler}, {Frieman}
+  et~al.}]{2008ApJ...682..262D}
+{Dilday}, B., {Kessler}, R., {Frieman}, J.A., et~al., 2008, \apj, 682, 262
+  (\mn@eprint {arXiv} {0801.3297}), \mn@doi{10.1086/587733},
+  \href{http://adsabs.harvard.edu/abs/2008ApJ...682..262D}{ADS Link}
+
+\bibitem[{Dubois-Felsmann \& Jenness(LSE-61)}]{LSE-61}
+\textbf{[LSE-61]}, Dubois-Felsmann, G., Jenness, T., 2018,  \emph{ {LSST Data
+  Management Subsystem Requirements}}, \textsf{ LSE-61},
+  \urlprefix\url{https://ls.st/LSE-61}
+
+\bibitem[{{Figuera Jaimes} et~al.(2016){Figuera Jaimes}, {Bramich}, {Skottfelt}
+  et~al.}]{2016A&A...588A.128F}
+{Figuera Jaimes}, R., {Bramich}, D.M., {Skottfelt}, J., et~al., 2016, \aap,
+  588, A128 (\mn@eprint {arXiv} {1512.07913}),
+  \mn@doi{10.1051/0004-6361/201527641},
+  \href{http://adsabs.harvard.edu/abs/2016A%26A...588A.128F}{ADS Link}
+
+\bibitem[{{Frohmaier} et~al.(2017){Frohmaier}, {Sullivan}, {Nugent},
+  {Goldstein}, \& {DeRose}}]{2017ApJS..230....4F}
+{Frohmaier}, C., {Sullivan}, M., {Nugent}, P.E., {Goldstein}, D.A., {DeRose},
+  J., 2017, \apjs, 230, 4 (\mn@eprint {arXiv} {1704.02951}),
+  \mn@doi{10.3847/1538-4365/aa6d70},
+  \href{http://adsabs.harvard.edu/abs/2017ApJS..230....4F}{ADS Link}
+
+\bibitem[{{Frohmaier} et~al.(2018){Frohmaier}, {Sullivan}, {Maguire}, \&
+  {Nugent}}]{2018ApJ...858...50F}
+{Frohmaier}, C., {Sullivan}, M., {Maguire}, K., {Nugent}, P., 2018, \apj, 858,
+  50 (\mn@eprint {arXiv} {1804.03103}), \mn@doi{10.3847/1538-4357/aabc0b},
+  \href{http://adsabs.harvard.edu/abs/2018ApJ...858...50F}{ADS Link}
+
+\bibitem[{{Frohmaier} et~al.(2019){Frohmaier}, {Sullivan}, {Nugent}
+  et~al.}]{2019MNRAS.tmp..772F}
+{Frohmaier}, C., {Sullivan}, M., {Nugent}, P.E., et~al., 2019, \mnras
+  (\mn@eprint {arXiv} {1903.08580}), \mn@doi{10.1093/mnras/stz807},
+  \href{http://adsabs.harvard.edu/abs/2019MNRAS.tmp..772F}{ADS Link}
+
+\bibitem[{{Graham} et~al.(2012){Graham}, {Sand}, {Bildfell}
+  et~al.}]{2012ApJ...753...68G}
+{Graham}, M.L., {Sand}, D.J., {Bildfell}, C.J., et~al., 2012, \apj, 753, 68
+  (\mn@eprint {arXiv} {1205.0015}), \mn@doi{10.1088/0004-637X/753/1/68},
+  \href{http://adsabs.harvard.edu/abs/2012ApJ...753...68G}{ADS Link}
+
+\bibitem[{{Holoien} et~al.(2016){Holoien}, {Kochanek}, {Prieto}
+  et~al.}]{2016MNRAS.455.2918H}
+{Holoien}, T.W.S., {Kochanek}, C.S., {Prieto}, J.L., et~al., 2016, \mnras, 455,
+  2918 (\mn@eprint {arXiv} {1507.01598}), \mn@doi{10.1093/mnras/stv2486},
+  \href{http://adsabs.harvard.edu/abs/2016MNRAS.455.2918H}{ADS Link}
+
+\bibitem[{{Hung} et~al.(2018){Hung}, {Gezari}, {Cenko}
+  et~al.}]{2018ApJS..238...15H}
+{Hung}, T., {Gezari}, S., {Cenko}, S.B., et~al., 2018, \apjs, 238, 15
+  (\mn@eprint {arXiv} {1712.04936}), \mn@doi{10.3847/1538-4365/aad8b1},
+  \href{http://adsabs.harvard.edu/abs/2018ApJS..238...15H}{ADS Link}
+
+\bibitem[{{Ivezi{\'c}} \& {The LSST Science Collaboration}(LPM-17)}]{LPM-17}
+\textbf{[LPM-17]}, {Ivezi{\'c}}, {\v Z}., {The LSST Science Collaboration},
+  2018,  \emph{ {LSST Science Requirements Document}}, \textsf{ LPM-17},
+  \urlprefix\url{https://ls.st/LPM-17}
+
+\bibitem[{Juri\'c et~al.(LSE-163)}]{LSE-163}
+\textbf{[LSE-163]}, Juri\'c, M., et~al., 2017,  \emph{ {LSST Data Products
+  Definition Document}}, \textsf{ LSE-163},
+  \urlprefix\url{https://ls.st/LSE-163}
+
+\bibitem[{{Kankare} et~al.(2012){Kankare}, {Mattila}, {Ryder}
+  et~al.}]{2012ApJ...744L..19K}
+{Kankare}, E., {Mattila}, S., {Ryder}, S., et~al., 2012, \apjl, 744, L19
+  (\mn@eprint {arXiv} {1112.0777}), \mn@doi{10.1088/2041-8205/744/2/L19},
+  \href{http://adsabs.harvard.edu/abs/2012ApJ...744L..19K}{ADS Link}
+
+\bibitem[{{Kessler} et~al.(2015){Kessler}, {Marriner}, {Childress}
+  et~al.}]{2015AJ....150..172K}
+{Kessler}, R., {Marriner}, J., {Childress}, M., et~al., 2015, \aj, 150, 172
+  (\mn@eprint {arXiv} {1507.05137}), \mn@doi{10.1088/0004-6256/150/6/172},
+  \href{http://adsabs.harvard.edu/abs/2015AJ....150..172K}{ADS Link}
+
+\bibitem[{{Lee} et~al.(2015){Lee}, {Riffeser}, {Seitz}, {Bender}, \&
+  {Koppenhoefer}}]{2015ApJ...806..161L}
+{Lee}, C.H., {Riffeser}, A., {Seitz}, S., {Bender}, R., {Koppenhoefer}, J.,
+  2015, \apj, 806, 161 (\mn@eprint {arXiv} {1504.07246}),
+  \mn@doi{10.1088/0004-637X/806/2/161},
+  \href{http://adsabs.harvard.edu/abs/2015ApJ...806..161L}{ADS Link}
+
+\bibitem[{{P{\'e}rez-Torres} et~al.(2009){P{\'e}rez-Torres},
+  {Romero-Ca{\~n}izales}, {Alberdi}, \& {Polatidis}}]{2009A&A...507L..17P}
+{P{\'e}rez-Torres}, M.A., {Romero-Ca{\~n}izales}, C., {Alberdi}, A.,
+  {Polatidis}, A., 2009, \aap, 507, L17 (\mn@eprint {arXiv} {0909.3959}),
+  \mn@doi{10.1051/0004-6361/200912964},
+  \href{http://adsabs.harvard.edu/abs/2009A%26A...507L..17P}{ADS Link}
+
+\bibitem[{{Sako} et~al.(2008){Sako}, {Bassett}, {Becker}
+  et~al.}]{2008AJ....135..348S}
+{Sako}, M., {Bassett}, B., {Becker}, A., et~al., 2008, \aj, 135, 348
+  (\mn@eprint {arXiv} {0708.2750}), \mn@doi{10.1088/0004-6256/135/1/348},
+  \href{http://adsabs.harvard.edu/abs/2008AJ....135..348S}{ADS Link}
+
+\bibitem[{{Sand} et~al.(2012){Sand}, {Graham}, {Bildfell}
+  et~al.}]{2012ApJ...746..163S}
+{Sand}, D.J., {Graham}, M.L., {Bildfell}, C., et~al., 2012, \apj, 746, 163
+  (\mn@eprint {arXiv} {1110.1632}), \mn@doi{10.1088/0004-637X/746/2/163},
+  \href{http://adsabs.harvard.edu/abs/2012ApJ...746..163S}{ADS Link}
+
+\bibitem[{Sullivan(DMTN-037)}]{DMTN-037}
+\textbf{[DMTN-037]}, Sullivan, I., 2017,  \emph{ {DCR-matched template
+  generation}}, \textsf{ DMTN-037}, \urlprefix\url{https://dmtn-037.lsst.io},
+  \newline LSST Data Management Technical Note
+
+\bibitem[{Swinbank et~al.(LDM-151)}]{LDM-151}
+\textbf{[LDM-151]}, Swinbank, J.D., et~al., 2017,  \emph{ {Data Management
+  Science Pipelines Design}}, \textsf{ LDM-151},
+  \urlprefix\url{https://ls.st/LDM-151}
+
+\bibitem[{{Trevese} et~al.(2008){Trevese}, {Boutsia}, {Vagnetti}, {Cappellaro},
+  \& {Puccetti}}]{2008A&A...488...73T}
+{Trevese}, D., {Boutsia}, K., {Vagnetti}, F., {Cappellaro}, E., {Puccetti}, S.,
+  2008, \aap, 488, 73 (\mn@eprint {arXiv} {0805.2948}),
+  \mn@doi{10.1051/0004-6361:200809884},
+  \href{http://adsabs.harvard.edu/abs/2008A%26A...488...73T}{ADS Link}
+
+\bibitem[{{Villforth} et~al.(2010){Villforth}, {Koekemoer}, \&
+  {Grogin}}]{2010ApJ...723..737V}
+{Villforth}, C., {Koekemoer}, A.M., {Grogin}, N.A., 2010, \apj, 723, 737
+  (\mn@eprint {arXiv} {1008.3384}), \mn@doi{10.1088/0004-637X/723/1/737},
+  \href{http://adsabs.harvard.edu/abs/2010ApJ...723..737V}{ADS Link}
+
+\makeatother
+\end{thebibliography}
