@@ -9,22 +9,26 @@
 \contentsline {subsection}{\numberline {2.3}Active Galactic Nuclei}{8}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Variable Stars}{9}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}Moving Objects}{9}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Summary of Science Use-Cases}{10}{subsection.2.6}
 \contentsline {section}{\numberline {3}LSST Requirements and Plans Regarding Detection Efficiencies}{10}{section.3}
 \contentsline {subsection}{\numberline {3.1}Observatory System Specifications (OSS)}{10}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Data Management System Requirements (DMSR)}{11}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Data Products Definitions Document (DPDD)}{12}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Data Management Science Pipelines Design}{12}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Summary of Existing Requirements and Plans}{13}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Could Detection Efficiencies be Derived from Provided Data Products?}{13}{subsection.3.6}
-\contentsline {section}{\numberline {4}Options For Generating LSST Detection Efficiencies}{14}{section.4}
-\contentsline {subsection}{\numberline {4.1}Do Not Generate Detection Efficiencies}{14}{subsection.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}Make Available the Data on Fake Injected Sources}{14}{subsubsection.4.1.1}
-\contentsline {subsection}{\numberline {4.2}Generate Detection Efficiencies Without Fake Injection}{15}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Generate Detection Efficiencies via Fake Injection}{15}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}During Alert Production}{15}{subsubsection.4.3.1}
-\contentsline {subsection}{\numberline {4.4}On an Intermediate Timescale}{16}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}During DR Processing}{17}{subsection.4.5}
-\contentsline {subsection}{\numberline {4.6}Summary of Options for Generating Detection Efficiencies}{17}{subsection.4.6}
-\contentsline {section}{\numberline {5}Options for Fake Point Source Injection Techniques}{18}{section.5}
-\contentsline {subsection}{\numberline {5.1}Simulating New Fake Objects}{18}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Simulating Variability in Real Objects}{19}{subsection.5.2}
+\contentsline {subsection}{\numberline {3.5}Could Detection Efficiencies be Derived from Provided Data Products?}{13}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Summary of Existing Requirements and Plans}{13}{subsection.3.6}
+\contentsline {section}{\numberline {4}Options Regarding Detection Efficiencies}{14}{section.4}
+\contentsline {subsection}{\numberline {4.1}Do Nothing}{14}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Make Available the Fakes Injected for Spuriousness Characterization}{14}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Ensure the Fakes Injected for Spuriousness Characterization Meet Science Goals}{15}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Generate and Provide Detection Efficiencies}{15}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Inject Fakes during Prompt or Data Release Processing?}{16}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}During Prompt Processing}{16}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}On an Intermediate Timescale}{17}{subsubsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.3}During Data Release Processing}{18}{subsubsection.4.5.3}
+\contentsline {subsection}{\numberline {4.6}Summary of Options}{18}{subsection.4.6}
+\contentsline {section}{\numberline {5}Options for Fake Point Source Injection Techniques}{19}{section.5}
+\contentsline {subsection}{\numberline {5.1}Simulating New Fake Objects}{19}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Simulating Variability in Real Objects}{20}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Planting in a Template Image}{20}{subsubsection.5.2.1}
+\contentsline {section}{\numberline {6}Summary, Open Questions, and Suggested Future Work}{21}{section.6}

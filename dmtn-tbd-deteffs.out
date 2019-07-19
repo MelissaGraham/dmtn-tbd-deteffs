@@ -7,22 +7,26 @@
 \BOOKMARK [2][-]{subsection.2.3}{Active Galactic Nuclei}{section.2}% 7
 \BOOKMARK [2][-]{subsection.2.4}{Variable Stars}{section.2}% 8
 \BOOKMARK [2][-]{subsection.2.5}{Moving Objects}{section.2}% 9
-\BOOKMARK [1][-]{section.3}{LSST Requirements and Plans Regarding Detection Efficiencies}{}% 10
-\BOOKMARK [2][-]{subsection.3.1}{Observatory System Specifications \(OSS\)}{section.3}% 11
-\BOOKMARK [2][-]{subsection.3.2}{Data Management System Requirements \(DMSR\)}{section.3}% 12
-\BOOKMARK [2][-]{subsection.3.3}{Data Products Definitions Document \(DPDD\)}{section.3}% 13
-\BOOKMARK [2][-]{subsection.3.4}{Data Management Science Pipelines Design}{section.3}% 14
-\BOOKMARK [2][-]{subsection.3.5}{Summary of Existing Requirements and Plans}{section.3}% 15
-\BOOKMARK [2][-]{subsection.3.6}{Could Detection Efficiencies be Derived from Provided Data Products?}{section.3}% 16
-\BOOKMARK [1][-]{section.4}{Options For Generating LSST Detection Efficiencies}{}% 17
-\BOOKMARK [2][-]{subsection.4.1}{Do Not Generate Detection Efficiencies}{section.4}% 18
-\BOOKMARK [3][-]{subsubsection.4.1.1}{Make Available the Data on Fake Injected Sources}{subsection.4.1}% 19
-\BOOKMARK [2][-]{subsection.4.2}{Generate Detection Efficiencies Without Fake Injection}{section.4}% 20
-\BOOKMARK [2][-]{subsection.4.3}{Generate Detection Efficiencies via Fake Injection}{section.4}% 21
-\BOOKMARK [3][-]{subsubsection.4.3.1}{During Alert Production}{subsection.4.3}% 22
-\BOOKMARK [2][-]{subsection.4.4}{On an Intermediate Timescale}{section.4}% 23
-\BOOKMARK [2][-]{subsection.4.5}{During DR Processing}{section.4}% 24
-\BOOKMARK [2][-]{subsection.4.6}{Summary of Options for Generating Detection Efficiencies}{section.4}% 25
-\BOOKMARK [1][-]{section.5}{Options for Fake Point Source Injection Techniques}{}% 26
-\BOOKMARK [2][-]{subsection.5.1}{Simulating New Fake Objects}{section.5}% 27
-\BOOKMARK [2][-]{subsection.5.2}{Simulating Variability in Real Objects}{section.5}% 28
+\BOOKMARK [2][-]{subsection.2.6}{Summary of Science Use-Cases}{section.2}% 10
+\BOOKMARK [1][-]{section.3}{LSST Requirements and Plans Regarding Detection Efficiencies}{}% 11
+\BOOKMARK [2][-]{subsection.3.1}{Observatory System Specifications \(OSS\)}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.2}{Data Management System Requirements \(DMSR\)}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.3}{Data Products Definitions Document \(DPDD\)}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.4}{Data Management Science Pipelines Design}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.5}{Could Detection Efficiencies be Derived from Provided Data Products?}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.6}{Summary of Existing Requirements and Plans}{section.3}% 17
+\BOOKMARK [1][-]{section.4}{Options Regarding Detection Efficiencies}{}% 18
+\BOOKMARK [2][-]{subsection.4.1}{Do Nothing}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.2}{Make Available the Fakes Injected for Spuriousness Characterization}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.3}{Ensure the Fakes Injected for Spuriousness Characterization Meet Science Goals}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.4}{Generate and Provide Detection Efficiencies}{section.4}% 22
+\BOOKMARK [2][-]{subsection.4.5}{Inject Fakes during Prompt or Data Release Processing?}{section.4}% 23
+\BOOKMARK [3][-]{subsubsection.4.5.1}{During Prompt Processing}{subsection.4.5}% 24
+\BOOKMARK [3][-]{subsubsection.4.5.2}{On an Intermediate Timescale}{subsection.4.5}% 25
+\BOOKMARK [3][-]{subsubsection.4.5.3}{During Data Release Processing}{subsection.4.5}% 26
+\BOOKMARK [2][-]{subsection.4.6}{Summary of Options}{section.4}% 27
+\BOOKMARK [1][-]{section.5}{Options for Fake Point Source Injection Techniques}{}% 28
+\BOOKMARK [2][-]{subsection.5.1}{Simulating New Fake Objects}{section.5}% 29
+\BOOKMARK [2][-]{subsection.5.2}{Simulating Variability in Real Objects}{section.5}% 30
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Planting in a Template Image}{subsection.5.2}% 31
+\BOOKMARK [1][-]{section.6}{Summary, Open Questions, and Suggested Future Work}{}% 32
