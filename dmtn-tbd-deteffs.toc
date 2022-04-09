@@ -1,34 +1,39 @@
 \babel@toc {english}{}
 \babel@toc {english}{}
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}
-\contentsline {subsection}{\numberline {1.1}Study Overview}{2}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Summary of Study Findings}{2}{subsection.1.2}
-\contentsline {section}{\numberline {2}Scientific Motivation and Use-Cases for Detection Efficiencies}{3}{section.2}
-\contentsline {subsection}{\numberline {2.1}Completeness, Purity, and Spuriousness}{3}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Transients}{5}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Active Galactic Nuclei}{8}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Variable Stars}{9}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Moving Objects}{10}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Summary of Science Use-Cases}{10}{subsection.2.6}
-\contentsline {section}{\numberline {3}LSST Requirements and Plans Regarding Detection Efficiencies}{10}{section.3}
-\contentsline {subsection}{\numberline {3.1}Observatory System Specifications (OSS)}{11}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Data Management System Requirements (DMSR)}{12}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Data Products Definitions Document (DPDD)}{12}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Data Management Science Pipelines Design}{13}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Could Detection Efficiencies be Derived from Provided Data Products?}{13}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Summary of Existing Requirements and Plans}{14}{subsection.3.6}
-\contentsline {section}{\numberline {4}Options Regarding Detection Efficiencies}{14}{section.4}
-\contentsline {subsection}{\numberline {4.1}Do Nothing}{14}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Make Available the Fakes Injected for Spuriousness Characterization}{15}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Ensure the Fakes Injected for Spuriousness Characterization Meet Science Goals}{15}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Generate and Provide Detection Efficiencies}{16}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Inject Fakes during Prompt or Data Release Processing?}{16}{subsection.4.5}
-\contentsline {subsubsection}{\numberline {4.5.1}During Prompt Processing}{16}{subsubsection.4.5.1}
-\contentsline {subsubsection}{\numberline {4.5.2}On an Intermediate Timescale}{18}{subsubsection.4.5.2}
-\contentsline {subsubsection}{\numberline {4.5.3}During Data Release Processing}{18}{subsubsection.4.5.3}
-\contentsline {subsection}{\numberline {4.6}Summary of Options}{19}{subsection.4.6}
-\contentsline {section}{\numberline {5}Options for Fake Point Source Injection Techniques}{19}{section.5}
-\contentsline {subsection}{\numberline {5.1}Simulating New Fake Objects}{19}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Simulating Variability in Real Objects}{20}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Planting in a Template Image}{21}{subsubsection.5.2.1}
-\contentsline {section}{\numberline {6}Summary, Open Questions, and Suggested Future Work}{21}{section.6}
+\contentsline {section}{\numberline {2}Proposed Detection Efficiency Matrix}{1}{section.2}
+\contentsline {section}{\numberline {A}Scientific Examples}{6}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Summary}{6}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Transients}{6}{subsection.A.2}
+\contentsline {subsubsection}{\numberline {A.2.1}Sloan Digital Sky Survey II (SDSS-II)}{7}{subsubsection.A.2.1}
+\contentsline {subsubsection}{\numberline {A.2.2}Dark Energy Survey (DES)}{8}{subsubsection.A.2.2}
+\contentsline {subsubsection}{\numberline {A.2.3}A Canada-France-Hawaii Telescope (CFHT) Cluster Survey}{8}{subsubsection.A.2.3}
+\contentsline {subsubsection}{\numberline {A.2.4}Palomar Transient Factory (PTF)}{9}{subsubsection.A.2.4}
+\contentsline {subsection}{\numberline {A.3}Cosmology}{9}{subsection.A.3}
+\contentsline {subsection}{\numberline {A.4}Active Galactic Nuclei}{9}{subsection.A.4}
+\contentsline {subsection}{\numberline {A.5}Variable Stars}{10}{subsection.A.5}
+\contentsline {subsection}{\numberline {A.6}Moving Objects}{11}{subsection.A.6}
+\contentsline {section}{\numberline {B}Requirements Review}{11}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}Summary}{11}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}Science Requirements Document (SRD, LPM-17)}{12}{subsection.B.2}
+\contentsline {subsection}{\numberline {B.3}LSST System Requirements Document (LSE-29)}{12}{subsection.B.3}
+\contentsline {subsection}{\numberline {B.4}Observatory System Specifications (OSS, LSE-30)}{12}{subsection.B.4}
+\contentsline {subsection}{\numberline {B.5}Data Management System Requirements (DMSR, LSE-61)}{14}{subsection.B.5}
+\contentsline {subsection}{\numberline {B.6}Data Products Definitions Document (DPDD, LSE-163)}{14}{subsection.B.6}
+\contentsline {subsection}{\numberline {B.7}Data Management Science Pipelines Design (LDM-151)}{15}{subsection.B.7}
+\contentsline {section}{\numberline {C}Spuriousness (Real/Bogus)}{15}{appendix.C}
+\contentsline {section}{\numberline {D}Options Regarding Detection Efficiencies}{17}{appendix.D}
+\contentsline {subsection}{\numberline {D.1}Do Nothing}{18}{subsection.D.1}
+\contentsline {subsection}{\numberline {D.2}Make Available the Fakes Injected for Spuriousness Characterization}{18}{subsection.D.2}
+\contentsline {subsection}{\numberline {D.3}Ensure the Fakes Injected for Spuriousness Characterization Meet Science Goals}{19}{subsection.D.3}
+\contentsline {subsection}{\numberline {D.4}Generate and Provide Detection Efficiencies}{19}{subsection.D.4}
+\contentsline {subsection}{\numberline {D.5}Inject Fakes during Prompt or Data Release Processing?}{19}{subsection.D.5}
+\contentsline {subsubsection}{\numberline {D.5.1}During Prompt Processing}{19}{subsubsection.D.5.1}
+\contentsline {subsubsection}{\numberline {D.5.2}On an Intermediate Timescale}{21}{subsubsection.D.5.2}
+\contentsline {subsubsection}{\numberline {D.5.3}During Data Release Processing}{22}{subsubsection.D.5.3}
+\contentsline {subsection}{\numberline {D.6}Summary of Options}{22}{subsection.D.6}
+\contentsline {section}{\numberline {E}Options for Fake Point Source Injection Techniques}{22}{appendix.E}
+\contentsline {subsection}{\numberline {E.1}Simulating New Fake Objects}{23}{subsection.E.1}
+\contentsline {subsection}{\numberline {E.2}Simulating Variability in Real Objects}{24}{subsection.E.2}
+\contentsline {subsubsection}{\numberline {E.2.1}Planting in a Template Image}{24}{subsubsection.E.2.1}
+\contentsline {section}{\numberline {F}Summary, Open Questions, and Suggested Future Work}{25}{appendix.F}
