@@ -1,37 +1,25 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.2}{Proposed Detection Efficiency Matrix}{}% 2
 \BOOKMARK [1][-]{appendix.A}{Scientific Examples}{}% 3
-\BOOKMARK [2][-]{subsection.A.1}{Summary}{appendix.A}% 4
-\BOOKMARK [2][-]{subsection.A.2}{Transients}{appendix.A}% 5
-\BOOKMARK [3][-]{subsubsection.A.2.1}{Sloan Digital Sky Survey II \(SDSS-II\)}{subsection.A.2}% 6
-\BOOKMARK [3][-]{subsubsection.A.2.2}{Dark Energy Survey \(DES\)}{subsection.A.2}% 7
-\BOOKMARK [3][-]{subsubsection.A.2.3}{A Canada-France-Hawaii Telescope \(CFHT\) Cluster Survey}{subsection.A.2}% 8
-\BOOKMARK [3][-]{subsubsection.A.2.4}{Palomar Transient Factory \(PTF\)}{subsection.A.2}% 9
-\BOOKMARK [2][-]{subsection.A.3}{Cosmology}{appendix.A}% 10
-\BOOKMARK [2][-]{subsection.A.4}{Active Galactic Nuclei}{appendix.A}% 11
-\BOOKMARK [2][-]{subsection.A.5}{Variable Stars}{appendix.A}% 12
-\BOOKMARK [2][-]{subsection.A.6}{Moving Objects}{appendix.A}% 13
-\BOOKMARK [1][-]{appendix.B}{Requirements Review}{}% 14
-\BOOKMARK [2][-]{subsection.B.1}{Summary}{appendix.B}% 15
-\BOOKMARK [2][-]{subsection.B.2}{Science Requirements Document \(SRD, LPM-17\)}{appendix.B}% 16
-\BOOKMARK [2][-]{subsection.B.3}{LSST System Requirements Document \(LSE-29\)}{appendix.B}% 17
-\BOOKMARK [2][-]{subsection.B.4}{Observatory System Specifications \(OSS, LSE-30\)}{appendix.B}% 18
-\BOOKMARK [2][-]{subsection.B.5}{Data Management System Requirements \(DMSR, LSE-61\)}{appendix.B}% 19
-\BOOKMARK [2][-]{subsection.B.6}{Data Products Definitions Document \(DPDD, LSE-163\)}{appendix.B}% 20
-\BOOKMARK [2][-]{subsection.B.7}{Data Management Science Pipelines Design \(LDM-151\)}{appendix.B}% 21
-\BOOKMARK [1][-]{appendix.C}{Spuriousness \(Real/Bogus\)}{}% 22
-\BOOKMARK [1][-]{appendix.D}{Options Regarding Detection Efficiencies}{}% 23
-\BOOKMARK [2][-]{subsection.D.1}{Do Nothing}{appendix.D}% 24
-\BOOKMARK [2][-]{subsection.D.2}{Make Available the Fakes Injected for Spuriousness Characterization}{appendix.D}% 25
-\BOOKMARK [2][-]{subsection.D.3}{Ensure the Fakes Injected for Spuriousness Characterization Meet Science Goals}{appendix.D}% 26
-\BOOKMARK [2][-]{subsection.D.4}{Generate and Provide Detection Efficiencies}{appendix.D}% 27
-\BOOKMARK [2][-]{subsection.D.5}{Inject Fakes during Prompt or Data Release Processing?}{appendix.D}% 28
-\BOOKMARK [3][-]{subsubsection.D.5.1}{During Prompt Processing}{subsection.D.5}% 29
-\BOOKMARK [3][-]{subsubsection.D.5.2}{On an Intermediate Timescale}{subsection.D.5}% 30
-\BOOKMARK [3][-]{subsubsection.D.5.3}{During Data Release Processing}{subsection.D.5}% 31
-\BOOKMARK [2][-]{subsection.D.6}{Summary of Options}{appendix.D}% 32
-\BOOKMARK [1][-]{appendix.E}{Options for Fake Point Source Injection Techniques}{}% 33
-\BOOKMARK [2][-]{subsection.E.1}{Simulating New Fake Objects}{appendix.E}% 34
-\BOOKMARK [2][-]{subsection.E.2}{Simulating Variability in Real Objects}{appendix.E}% 35
-\BOOKMARK [3][-]{subsubsection.E.2.1}{Planting in a Template Image}{subsection.E.2}% 36
-\BOOKMARK [1][-]{appendix.F}{Summary, Open Questions, and Suggested Future Work}{}% 37
+\BOOKMARK [2][-]{subsection.A.1}{Transients}{appendix.A}% 4
+\BOOKMARK [3][-]{subsubsection.A.1.1}{Sloan Digital Sky Survey II \(SDSS-II\)}{subsection.A.1}% 5
+\BOOKMARK [3][-]{subsubsection.A.1.2}{Dark Energy Survey \(DES\)}{subsection.A.1}% 6
+\BOOKMARK [3][-]{subsubsection.A.1.3}{A Canada-France-Hawaii Telescope \(CFHT\) Cluster Survey}{subsection.A.1}% 7
+\BOOKMARK [3][-]{subsubsection.A.1.4}{Palomar Transient Factory \(PTF\)}{subsection.A.1}% 8
+\BOOKMARK [2][-]{subsection.A.2}{Active Galactic Nuclei}{appendix.A}% 9
+\BOOKMARK [2][-]{subsection.A.3}{Variable Stars}{appendix.A}% 10
+\BOOKMARK [2][-]{subsection.A.4}{Moving Objects}{appendix.A}% 11
+\BOOKMARK [1][-]{appendix.B}{Requirements Review}{}% 12
+\BOOKMARK [2][-]{subsection.B.1}{Science Requirements Document \(SRD, LPM-17\)}{appendix.B}% 13
+\BOOKMARK [2][-]{subsection.B.2}{Observatory System Specifications \(OSS, LSE-30\)}{appendix.B}% 14
+\BOOKMARK [2][-]{subsection.B.3}{Data Management System Requirements \(DMSR, LSE-61\)}{appendix.B}% 15
+\BOOKMARK [2][-]{subsection.B.4}{Data Products Definitions Document \(DPDD, LSE-163\)}{appendix.B}% 16
+\BOOKMARK [2][-]{subsection.B.5}{Data Management Science Pipelines Design \(LDM-151\)}{appendix.B}% 17
+\BOOKMARK [1][-]{appendix.C}{A Primer on Spuriousness \(Real/Bogus\)}{}% 18
+\BOOKMARK [1][-]{appendix.D}{Options Regarding Detection Efficiencies}{}% 19
+\BOOKMARK [2][-]{subsection.D.1}{Do Nothing}{appendix.D}% 20
+\BOOKMARK [2][-]{subsection.D.2}{Make Available the Artifical Sources Use for Spuriousness Characterization}{appendix.D}% 21
+\BOOKMARK [2][-]{subsection.D.3}{... And Optimize the Artificial Sources for Detection Efficiencies}{appendix.D}% 22
+\BOOKMARK [2][-]{subsection.D.4}{... And Generate and Provide Detection Efficiencies}{appendix.D}% 23
+\BOOKMARK [2][-]{subsection.D.5}{Further Considerations}{appendix.D}% 24
+\BOOKMARK [1][-]{appendix.E}{Artificial Source Injection Techniques}{}% 25

@@ -1,8 +1,5 @@
 \section{Scientific Examples}\label{sec:sci}
 
-% % % % % % % % % % % % % % % % 
-\subsection{Summary}
-
 Detection efficiencies are required for many of the core science pillars of the LSST, as described below.
 Many other surveys use populations of synthetic sources injected into the data in order to characterize the detection efficiency, as described in the examples provided in \ref{ssec:sci_trans}.
 
@@ -22,6 +19,7 @@ That aspect of the analysis is best left to the user to handle during the MC sim
 
 Transient events such as stellar explosions (supernovae, kilonovae) and tidal disruption events (TDEs; stars destroyed by close passage to a supermassive black hole) occur once and do not repeat.
 Since most transient progenitors are stars, they are most often found in high surface brightness environments (i.e., galaxies; their spatial distribution ``follows the light") and require difference imaging in order to be discovered, and thus detection efficiencies in order to characterize their occurrence rates.
+
 For example, transient occurrence rates as a function of environment can constrain their progenitor star characteristics, which requires that detection biases be well known, as does understanding selection biases in transient samples (e.g., when using Type Ia supernova as cosmological standard candles). 
 
 The four surveys mentioned below have either inserted fakes into all of their live images (SDSS-II and DES) or into a representative set of images at a later time (CFHT and PTF), to ensure that detection efficiencies can be determined for the full range of image parameters.
@@ -46,7 +44,7 @@ This process also started by simulating a realistic sample of SNe\,Ia, with para
 % The DES real/bogus algorithm an pipeline are described by Goldstein et al. 2015:
 % http://adsabs.harvard.edu/abs/2015AJ....150...82G
 
-\subsubsection{A Canada-France-Hawaii Telescope (CFHT) Cluster Survey}
+\subsubsection{A Canada-France-Hawaii Telescope (CFHT) Cluster Survey}\label{ssec:sci_cfht}
 
 In order to calculate the occurrence rate of SNe\,Ia in galaxy clusters for a CFHT imaging survey, \cite{2012ApJ...746..163S} performed DIA to detect SNe in real time, but the fake injection was done separately.
 Simulated point sources were implanted into a representative subset of their images, and detection efficiencies calculated as a function of the relevant parameters for this survey: apparent magnitude, image quality, and focal plane location (because because the survey used single pointings with only small dithers).
@@ -76,12 +74,6 @@ However, note that some rates analyses for TDEs have used aperture photometry an
 % epsilon_i = "detection efficiencies of each object"
 % but note that epsilon != eta, rather epsilon is built from eta
 % a large sample of SNeIa with realistic intrinsic properties are simulated, planted in the data, and then recovered, and then a grid of recovery fractions as a function of SNIa intrinsic properties and redshift is created, and those are the epsilons assigned to detected SNeIa
-
-
-% % % % % % % % % % % % % % % %
-\subsection{Cosmology}\label{ssec:sci_cosmo}
-
-The selection function for Type Ia supernovae that are used in dark energy analyses must be well constrained.
 
 
 % % % % % % % % % % % % % % % %

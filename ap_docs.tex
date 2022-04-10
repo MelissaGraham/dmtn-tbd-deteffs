@@ -1,15 +1,14 @@
 \section{Requirements Review}\label{sec:docs}
 
-% % % % % % % % % % % % % % % % 
-\subsection{Summary}
-
 There are no requirements related to producing or serving detection efficiencies for transient {\tt DIASources} in difference images.
 
-However, the OSS specifies that spuriousness characterization be done {\it ``by insertion and recovery of artificial sources"}, and the DMSR specifies that {\it software} for fake injection is a deliverable of the DMS (\S~\ref{ssec:docs_dmsr}).
+However, the SRD specifies the definition for ``detection" as $SNR>5$, the OSS specifies that spuriousness characterization be done {\it ``by insertion and recovery of artificial sources"}, and the DMSR specifies that {\it software} for fake injection is a deliverable of the DMS (\S~\ref{ssec:docs_dmsr}).
+These specifications suggest that use of artificial source injection to determine a detection efficiency matrix for transient {\tt DIASources} would not require a large expansion of scope for DM.
 
-This suggests that use of artificial source injection to determine a detection efficiency matrix for transient {\tt DIASources} would not require a large expansion of scope for DM.
+The DPDD and LPM-151 also contain some discussion relevant to detection efficiencies.
 
 As a final note, the DMS computational system is sized to accommodate the (re)processing of all images with fake sources implanted {\bf (from KT)}.
+
 
 % % % % % % % % % % % % % % % % 
 \subsection{Science Requirements Document (SRD, LPM-17)}
@@ -19,11 +18,6 @@ The SRD \citedsp{LPM-17}, V5.2.4 (Jan 30 2018), does not contain any requirement
 The SRD does describe how the Prompt pipeline should provide {\it ``the fast release of data on likely optical transients will include measurements of position, flux, size and shape, using appropriate weighting functions, for all the objects detected above {\tt transSNR} signal-to-noise ratio in difference images"}, where {\tt transSNR} = 5 (page 41).
 
 The SRD thus specifies that all sources with $SNR \geq 5$ in a difference image are considered ``detected", and it is the efficiency (or completeness) of detected transients (i.e., new sources which were not present in the template) that this document is concerned with.
-
-% % % % % % % % % % % % % % % % 
-\subsection{LSST System Requirements Document (LSE-29)}
-
-The LSST \citedsp{LSE-29}, V7.1 (Mar 5 2020), does not contain any requirements related to detection efficiencies.
 
 
 % % % % % % % % % % % % % % % % 

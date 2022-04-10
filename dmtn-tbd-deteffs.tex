@@ -43,25 +43,30 @@
 
 Any astrophysical question which asks, e.g., {\it "How often?"} or {\it "How many?"} about transient phenomena, such as population studies or occurrence rates, needs to know a survey's {\it detection efficiency}: the probability that a source is detected (or in other words, the fraction of all sources that are detected).
 
-Detection efficiencies are required for many of the core science pillars of the LSST, such as transient phenomena, cosmology, and Solar System studies; many other surveys use populations of synthetic sources injected into the data in order to characterize the detection efficiency (Appendix~\ref{sec:sci}).
-This should be done for the LSST as well -- deriving detection efficiencies is too large and complicated a task to leave for the science community.
+Detection efficiencies are required for many of the core science pillars of the LSST, such as transient phenomena, cosmology, and Solar System studies  (Appendix~\ref{sec:sci}).
+Many other surveys use populations of synthetic sources injected into the data in order to characterize the detection efficiency (Appendix~\ref{ssec:sci_trans}).
 
-Rubin Observatory documentation contains no requirements related to producing or serving detection efficiencies for transient {\tt DIASources} in difference images (Appendix~\ref{sec:docs}), but does contain requirements about using source injection to characterize detected source {\it spuriousness} (see also Appendix~\ref{sec:rb}).
+Rubin Observatory documentation contains no requirements related to producing or serving detection efficiencies for transient {\tt DIASources} in difference images (Appendix~\ref{sec:docs}), but does contain requirements about creating source injection software and using it to characterize detected sources' {\it spuriousness} parameter (see Appendix~\ref{sec:rb}).
 
-This document describes how Rubin Observatory should use its synthetic source injection algorithms to measure and provide detection efficiencies for transient point sources detected by the LSST via difference image analysis (DIA).
+As described in Appendix~\ref{sec:opts}, leaving synthetic source injection and the derivation of LSST detection efficiencies for transients as a user-generated data product is a moderate risk to LSST science.
+
+This risk could be mitigated with a bit of extra effort on behalf of Data Management (and/or the Rubin Data Production team in Operations) to (1) ensure the artificial sources injected in order to characterize spuriousness cover the range of parameters needed to determine detection efficiencies, and (2) generate and provide a table of detection efficiencies.
+
+The range of parameters that should be covered, and an example use-case of the table of detection efficiencies, is provided in Section~\ref{sec:proposal}. 
 
 Readers should refer to the Data Products Definitions Document \citedsp{LSE-163} for more information about DIA, difference images, and {\tt DIASources}.
 Detection efficiencies of extended difference-image sources (e.g., light echoes, trailed moving objects), or for variable or static point-sources in direct images, are beyond the scope of this document.
 
 
-\section{Proposed Detection Efficiency Matrix}
+% % % % % % % % % % % % % % % % % %
+\clearpage
+\section{Proposed Detection Efficiency Matrix}\label{sec:proposal}
 
 {\bf Detection:} as described in the SRD and DPDD, sources in difference images with a signal-to-noise ratio $SNR > {transSNR} = 5$ will be considered {\it detected} and will become a {\tt DIASource}.
  
 {\bf Detection Efficiency:} The probability that a true astrophysical source of a given magnitude is detected and becomes a {\tt DIASource}. In other words, the fraction of all true astrophysical sources of a given magnitude that are detected and become {\tt DIASources}. 
 
-Characterizing detection efficiency requires {\it knowing} which of the detected {\tt DIAsources} are astrophysical, and the total number of astrophysical sources in the field of the image.
-This would only be possible if ``truth" is somehow known from, e.g., co-temporal imaging data of superior quality -- but of course that almost never exists because it is inefficient to duplicate data.
+Characterizing detection efficiency requires knowing how many sources were in the field of the image (and their brightnesses), which is only be possible if ``truth" is somehow known from, e.g., co-temporal imaging data of superior quality -- which almost never exists because it is inefficient to duplicate data.
 
 Instead, the detection efficiency is typically characterized by simulating and injecting synthetic sources into images, using a point-spread function shape like real astrophysical sources, and then processing the images with the survey's difference image analysis pipeline and measuring the fraction recovered.
 
@@ -69,15 +74,19 @@ The detection efficiency can be characterized as $\eta(m)$, where $m$ is the app
 As described in Appendix~\ref{sec:sci}, $\eta$ depends on more than just $m$, and is a function of the parameters ($\vv{P}$) listed in Table \ref{tab:eta_pars}.
 
 An accurate measure of $\eta(m,\vv{P})$ for every pixel of every difference image is technologically unfeasible.
-Instead, an analytic model for $\eta$ as a function of both $m$ and parameters $\vv{P}$ (some of which may be correlated) can be built with synthetic source injection, and then applied by users.
+Instead, an analytic model for $\eta(m,\vv{P})$ can be built, so long as the synthetic sources cover the full range of $m$ and $\vv{P}$.
 
-This means that the synthetic sources should be simulated over a range of parameters $\vv{P}$, but as described in Appendix~\ref{sec:sci} the simulated sources do not need to accurately represent astrophysical transient types, colors, redshifts, durations, light curves, etc.
-That aspect of the analysis is best left to the user to handle during the MC simulation stage for their particular type of object.
- 
+As described in Appendix~\ref{sec:sci}, for $\eta(m,\vv{P})$ the synthetic sources do {\it not} need to accurately represent astrophysical transient types in terms of their colors, redshifts, host offsets, durations, light curves, etc.
+That aspect of the analysis is best left to the user to handle for their particular type of object, as described in Section~\ref{sec:proposal}.
+
+A specific example of how users might apply $\eta(m,\vv{P})$ in their analysis is provided in Appendix~\ref{ssec:sci_cfht}.
+Generally, it would involve simulating a set of light curves for the object type of interest (e.g., normal $0.1<z<0.5$ Type Ia supernovae), and then using the detection efficiency table to evaluate the fraction that would be ``identified" in a given time-frame (where ``identified" might have specific criteria, such as a reliable photometric classification).
+This is typically done as part of an MC analysis in order to marginalize over intrinsic distributions of, e.g., the brightness or host offsets of the object type of interest.
+
 \begin{table}[h]
 \begin{center}
 \begin{footnotesize}
-\caption[]{A description of the image and source parameters ($\vv{P}$) that can affect the detection efficiency ($\eta$) of point sources in a difference image (per filter).}
+\caption[]{A description of the image and source parameters ($\vv{P}$) that can affect the detection efficiency ($\eta(m)$) of point sources in a difference image (per filter).}
 \label{tab:eta_pars}
 \setlength{\extrarowheight}{5pt}
 \begin{tabular}{|p{3.1cm}|p{12cm}|}
@@ -106,41 +115,26 @@ Sky Cloud Cover & Extinction will affect $\eta$ by degrading the image magnitude
 \end{table}
 
 
-%\subsection{Study Overview}
-%\begin{itemize}
-%\item \S~\ref{sec:sci} contains a primer on the concepts related to detection efficiencies, and an overview of several science goals that rely on them, with examples of methods for generating and applying detection efficiencies from a selection of recent time-domain surveys. 
-%\item \S~\ref{sec:docs} reviews the LSST Data Management System's (DMS) literature and highlights existing plans, policies, requirements, and specifications related to the generation of LSST survey detection efficiencies. 
-%\item \S~\ref{sec:opts} presents and evaluates various options for how the DMS could provide detection efficiencies as a data product. 
-%\item \S~\ref{sec:tech} outlines several techniques for injecting fake point source variability into images.
-%\end{itemize}
-
-%\subsection{Summary of Study Findings}
-%\begin{enumerate}
-%\item It would enable some science -- and require no increase in scope -- to make available (e.g., as part of the annual DR) the data for the simulated point sources that will be used to characterize the {\tt DIASouce} spuriousness parameter in order to meet requirements in \citedsp{LSE-61}. This will enable users to build detection efficiency matrices, $\eta(\vv{P})$, for their science goals.
-%\item It would enable more science -- and require only a small increase in scope -- to ensure that the fake point sources cover the parameter space needed for scientific analyses involving detection efficiencies, which may be different from that of internal uses. 
-%\item It would be more scientifically useful -- again with another small increase in scope -- to calculate and provide the detection efficiency matrix itself, $\eta(\vv{P})$, as a data product (e.g., in the annual DR).
-%\item Further study (simulations) will be needed to identify the full set of parameters $\vv{P}$ for which $\eta$ should be determined, and optimal mode of fake injection (e.g., modeling the point spread function or using isolated stars).
-%\item Soliciting feedback and science use-cases from the community should be considered as a means to prioritize and make decisions regarding the above.
-%\end{enumerate}
-
-%See also \S~\ref{sec:future}.
-
 
 \clearpage
 \bibliography{local,lsst,refs,books,refs_ads}
 
 % % % % % % % % % % % % % % % % % %
-\clearpage
 \appendix
 
+\clearpage
 \input{ap_sci.tex}
 
+\clearpage
 \input{ap_docs.tex}
 
+\clearpage
 \input{ap_rb.tex}
 
+\clearpage
 \input{ap_opts.tex}
 
+\clearpage
 \input{ap_tech.tex}
 
 \end{document}
