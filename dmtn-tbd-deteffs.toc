@@ -1,27 +1,27 @@
 \babel@toc {english}{}
 \babel@toc {english}{}
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}
-\contentsline {section}{\numberline {2}Proposed Detection Efficiency Matrix}{2}{section.2}
-\contentsline {section}{\numberline {A}Scientific Examples}{6}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Transients}{6}{subsection.A.1}
-\contentsline {subsubsection}{\numberline {A.1.1}Sloan Digital Sky Survey II (SDSS-II)}{7}{subsubsection.A.1.1}
-\contentsline {subsubsection}{\numberline {A.1.2}Dark Energy Survey (DES)}{8}{subsubsection.A.1.2}
-\contentsline {subsubsection}{\numberline {A.1.3}A Canada-France-Hawaii Telescope (CFHT) Cluster Survey}{8}{subsubsection.A.1.3}
-\contentsline {subsubsection}{\numberline {A.1.4}Palomar Transient Factory (PTF)}{9}{subsubsection.A.1.4}
-\contentsline {subsection}{\numberline {A.2}Active Galactic Nuclei}{9}{subsection.A.2}
-\contentsline {subsection}{\numberline {A.3}Variable Stars}{10}{subsection.A.3}
-\contentsline {subsection}{\numberline {A.4}Moving Objects}{11}{subsection.A.4}
-\contentsline {section}{\numberline {B}Requirements Review}{12}{appendix.B}
-\contentsline {subsection}{\numberline {B.1}Science Requirements Document (SRD, LPM-17)}{12}{subsection.B.1}
-\contentsline {subsection}{\numberline {B.2}Observatory System Specifications (OSS, LSE-30)}{12}{subsection.B.2}
-\contentsline {subsection}{\numberline {B.3}Data Management System Requirements (DMSR, LSE-61)}{14}{subsection.B.3}
-\contentsline {subsection}{\numberline {B.4}Data Products Definitions Document (DPDD, LSE-163)}{14}{subsection.B.4}
-\contentsline {subsection}{\numberline {B.5}Data Management Science Pipelines Design (LDM-151)}{15}{subsection.B.5}
-\contentsline {section}{\numberline {C}A Primer on Spuriousness (Real/Bogus)}{16}{appendix.C}
-\contentsline {section}{\numberline {D}Options Regarding Detection Efficiencies}{19}{appendix.D}
-\contentsline {subsection}{\numberline {D.1}Do Nothing}{19}{subsection.D.1}
-\contentsline {subsection}{\numberline {D.2}Make Available the Artifical Sources Use for Spuriousness Characterization}{19}{subsection.D.2}
-\contentsline {subsection}{\numberline {D.3}... And Optimize the Artificial Sources for Detection Efficiencies}{20}{subsection.D.3}
-\contentsline {subsection}{\numberline {D.4}... And Generate and Provide Detection Efficiencies}{20}{subsection.D.4}
-\contentsline {subsection}{\numberline {D.5}Further Considerations}{21}{subsection.D.5}
-\contentsline {section}{\numberline {E}Artificial Source Injection Techniques}{22}{appendix.E}
+\contentsline {section}{\numberline {2}Proposed Detection Efficiency Matrix}{3}{section.2}
+\contentsline {section}{\numberline {A}Scientific Examples}{7}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Transients}{7}{subsection.A.1}
+\contentsline {subsubsection}{\numberline {A.1.1}Sloan Digital Sky Survey II (SDSS-II)}{8}{subsubsection.A.1.1}
+\contentsline {subsubsection}{\numberline {A.1.2}Dark Energy Survey (DES)}{9}{subsubsection.A.1.2}
+\contentsline {subsubsection}{\numberline {A.1.3}A Canada-France-Hawaii Telescope (CFHT) Cluster Survey}{9}{subsubsection.A.1.3}
+\contentsline {subsubsection}{\numberline {A.1.4}Palomar Transient Factory (PTF)}{10}{subsubsection.A.1.4}
+\contentsline {subsection}{\numberline {A.2}Active Galactic Nuclei}{10}{subsection.A.2}
+\contentsline {subsection}{\numberline {A.3}Variable Stars}{11}{subsection.A.3}
+\contentsline {subsection}{\numberline {A.4}Moving Objects}{12}{subsection.A.4}
+\contentsline {section}{\numberline {B}Requirements Review}{13}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}Science Requirements Document (SRD, LPM-17)}{13}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}Observatory System Specifications (OSS, LSE-30)}{14}{subsection.B.2}
+\contentsline {subsection}{\numberline {B.3}Data Management System Requirements (DMSR, LSE-61)}{15}{subsection.B.3}
+\contentsline {subsection}{\numberline {B.4}Data Products Definitions Document (DPDD, LSE-163)}{15}{subsection.B.4}
+\contentsline {subsection}{\numberline {B.5}Data Management Science Pipelines Design (LDM-151)}{16}{subsection.B.5}
+\contentsline {section}{\numberline {C}A Primer on Spuriousness (Real/Bogus)}{17}{appendix.C}
+\contentsline {section}{\numberline {D}Options Regarding Detection Efficiencies}{20}{appendix.D}
+\contentsline {subsection}{\numberline {D.1}Do Nothing}{20}{subsection.D.1}
+\contentsline {subsection}{\numberline {D.2}Make Available the Artifical Sources Use for Spuriousness Characterization}{20}{subsection.D.2}
+\contentsline {subsection}{\numberline {D.3}... And Optimize the Artificial Sources for Detection Efficiencies}{21}{subsection.D.3}
+\contentsline {subsection}{\numberline {D.4}... And Generate and Provide Detection Efficiencies}{21}{subsection.D.4}
+\contentsline {subsection}{\numberline {D.5}Further Considerations}{22}{subsection.D.5}
+\contentsline {section}{\numberline {E}Artificial Source Injection Techniques}{23}{appendix.E}

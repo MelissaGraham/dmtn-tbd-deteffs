@@ -46,13 +46,19 @@ Any astrophysical question which asks, e.g., {\it "How often?"} or {\it "How man
 Detection efficiencies are required for many of the core science pillars of the LSST, such as transient phenomena, cosmology, and Solar System studies  (Appendix~\ref{sec:sci}).
 Many other surveys use populations of synthetic sources injected into the data in order to characterize the detection efficiency (Appendix~\ref{ssec:sci_trans}).
 
-Rubin Observatory documentation contains no requirements related to producing or serving detection efficiencies for transient {\tt DIASources} in difference images (Appendix~\ref{sec:docs}), but does contain requirements about creating source injection software and using it to characterize detected sources' {\it spuriousness} parameter (see Appendix~\ref{sec:rb}).
+Rubin Observatory documentation contains several requirements related to producing and serving detection efficiencies for transient {\tt DIASources} in difference images (Appendix~\ref{sec:docs}), as well as requirements about creating source injection software and using it to characterize detected sources' completeness, purity, and {\it spuriousness} (see Appendix~\ref{sec:rb}).
 
-As described in Appendix~\ref{sec:opts}, leaving synthetic source injection and the derivation of LSST detection efficiencies for transients as a user-generated data product is a moderate risk to LSST science.
+As described in Appendix~\ref{sec:opts}, leaving synthetic source injection and the derivation of LSST detection efficiencies for transients as a user-generated data product would be a moderate risk to LSST science.
 
-This risk could be mitigated with a bit of extra effort on behalf of Data Management (and/or the Rubin Data Production team in Operations) to (1) ensure the artificial sources injected in order to characterize spuriousness cover the range of parameters needed to determine detection efficiencies, and (2) generate and provide a table of detection efficiencies.
+This document proposes how the Data Management (and/or the Rubin Data Production team in Operations) should make detection efficiencies available to users by:
 
-The range of parameters that should be covered, and an example use-case of the table of detection efficiencies, is provided in Section~\ref{sec:proposal}. 
+\begin{enumerate}
+\item ensuring the injected point sources cover the range of parameters needed to determine detection efficiencies for transients,
+\item providing a catalog of injected sources, their metadata (properties), and whether they were recovered to users, and
+\item generating and serving a table of detection efficiencies.
+\end{enumerate}
+
+The range of parameters that should be covered by the injected sources' properties, and an example use-case of the table of detection efficiencies, is provided in Section~\ref{sec:proposal}. 
 
 Readers should refer to the Data Products Definitions Document \citedsp{LSE-163} for more information about DIA, difference images, and {\tt DIASources}.
 Detection efficiencies of extended difference-image sources (e.g., light echoes, trailed moving objects), or for variable or static point-sources in direct images, are beyond the scope of this document.
@@ -80,7 +86,7 @@ As described in Appendix~\ref{sec:sci}, for $\eta(m,\vv{P})$ the synthetic sourc
 That aspect of the analysis is best left to the user to handle for their particular type of object, as described in Section~\ref{sec:proposal}.
 
 A specific example of how users might apply $\eta(m,\vv{P})$ in their analysis is provided in Appendix~\ref{ssec:sci_cfht}.
-Generally, it would involve simulating a set of light curves for the object type of interest (e.g., normal $0.1<z<0.5$ Type Ia supernovae), and then using the detection efficiency table to evaluate the fraction that would be ``identified" in a given time-frame (where ``identified" might have specific criteria, such as a reliable photometric classification).
+Generally, it would involve simulating a set of light curves for the object type of interest (e.g., normal $0.1<z<0.5$ Type Ia supernovae), and then using the detection efficiency table to evaluate the fraction that would be ``identified" in a given time-frame (where ``identified" might additional specific criteria in addition to detection as a {\tt DIASource}, such as a reliable photometric classification).
 This is typically done as part of an MC analysis in order to marginalize over intrinsic distributions of, e.g., the brightness or host offsets of the object type of interest.
 
 \begin{table}[h]

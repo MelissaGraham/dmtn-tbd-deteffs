@@ -1,9 +1,10 @@
 \section{Requirements Review}\label{sec:docs}
 
-There are no requirements related to producing or serving detection efficiencies for transient {\tt DIASources} in difference images.
+There are four requirements related to producing or serving detection efficiencies for transient {\tt DIASources} in difference images: OSS-REQ-0352\ossreq{0352}, OSS-REQ-0353\ossreq{0353}, DMS-REQ-0097\dmreq{0097}, and DMS-REQ-0009\dmreq{0009}.
 
-However, the SRD specifies the definition for ``detection" as $SNR>5$, the OSS specifies that spuriousness characterization be done {\it ``by insertion and recovery of artificial sources"}, and the DMSR specifies that {\it software} for fake injection is a deliverable of the DMS (\S~\ref{ssec:docs_dmsr}).
-These specifications suggest that use of artificial source injection to determine a detection efficiency matrix for transient {\tt DIASources} would not require a large expansion of scope for DM.
+Furthermore, the SRD specifies the definition for ``detection" as $SNR>5$, the OSS specifies that spuriousness characterization be done {\it ``by insertion and recovery of artificial sources"}, and the DMSR specifies that {\it software} for fake injection is a deliverable of the DMS (\S~\ref{ssec:docs_dmsr}).
+
+These specifications suggest that use of artificial source injection to determine a detection efficiency matrix for transient {\tt DIASources} would not be an expansion of scope for DM.
 
 The DPDD and LPM-151 also contain some discussion relevant to detection efficiencies.
 
@@ -23,9 +24,9 @@ The SRD thus specifies that all sources with $SNR \geq 5$ in a difference image 
 % % % % % % % % % % % % % % % % 
 \subsection{Observatory System Specifications (OSS, LSE-30)}\label{ssec:docs_oss}
 
-The OSS \citedsp{LSE-30}, V19.1 (July 30 2021) does not contain any requirements related to the determination of detection efficiencies.
+The OSS \citedsp{LSE-30}, V19.1 (July 30 2021) contains two requirements related to the determination of detection efficiencies: as described below, OSS-REQ-0352 and OSS-REQ-0353 both require detection efficiencies to generate the completeness factor they require.
 
-However, it does contain several specifications related to characterizing the spuriousness (also referred to as the ``real/bogus" parameter), completeness, and purity of LSST sources detected in difference images.
+The OSS also contains several specifications related to characterizing the spuriousness (also referred to as the ``real/bogus" parameter), completeness, and purity of LSST sources detected in difference images.
 See Appendix~\ref{sec:rb} for a description of these terms.
 
 The "insertion and recovery of artificial sources" that are mentioned as a means towards achieving requirements 0351, 0353, and 0354 could also be used to determine detection efficiencies.
@@ -38,9 +39,11 @@ The discussion further clarifies that {\it ``the performance of this metric will
 \item OSS-REQ-0352\ossreq{0352}, {\it Difference Source Sample Completeness}, specifies that {\it ``for each visit, the Observatory shall estimate the detected difference source sample completeness and purity as a function of the spuriousness metric threshold cut"} (Section 3.1.5.2.1.7.6).
 The discussion further clarifies that {\it ``this information will aid the end
 users in selecting the spuriousness threshold appropriate for their particular science case"}.
+However, as this requirement cannot be met without {\it difference source sample completeness}, it cannot be met with out detection efficiencies.
 
 \item OSS-REQ-0353\ossreq{0353}, {\it Difference Source Spuriousness Threshold - Transients}, specifies that {\it ``there shall exist a spuriousness threshold {\tt T} for which the completeness and purity of selected difference sources are higher than {\tt transCompletenessMin} (90\%)\reqparam{transCompletenessMin} and {\tt transPurityMin} (95\%)\reqparam{transPurityMin}, respectively, at the SNR detection threshold {\tt transSampleSNR} (6)\reqparam{transSampleSNR}. This requirement is to be interpreted as an average over the entire survey"} (Section 3.1.5.2.1.7.7).
 As for OSS-REQ-0351, the discussion further clarifies that {\it ``the performance of this metric will be assessed by simulations, by insertion and recovery of artificial sources, and comparisons to ground truth where known"}.
+As for OSS-REQ-0352, since this requirement cannot be met without {\it difference source sample completeness}, it cannot be met with out detection efficiencies.
 
 \item OSS-REQ-0354\ossreq{0354}, is similar to OSS-REQ-0353 but defines a threshold for moving objects.
 
@@ -52,14 +55,14 @@ Regarding spuriousness, the discussion for OSS-REQ-0351 further describes that t
 % % % % % % % % % % % % % % % % 
 \subsection{Data Management System Requirements (DMSR, LSE-61)}\label{ssec:docs_dmsr}
 
-The DMSR \citedsp{LSE-61}, V9.0 (Feb 12 2021) does contain a few statements relevant to detection efficiencies. 
+The DMSR \citedsp{LSE-61}, V9.0 (Feb 12 2021) contains a few statements relevant to detection efficiencies. 
 
 \begin{itemize}
 
 \item DMS-REQ-0097\dmreq{0097}, {\it "Level 1 Data Quality Report Definition"}, specifies that the Data Management System (DMS) {\it ``shall produce ... indicators of data quality that result from running the DMS pipelines, including ... detection efficiency for point sources vs. mag for each utilized filter"} (Section 1.3.14).
-However, DMS-REQ-0097 is derived from OSS-REQ-0131, {\it ``Nightly Summary Products"}, and is clearly intended to produce a nightly summary of the general performance of the observatory and the DMS, not to provide the scientifically useful detection efficiencies that are the topic of this document. 
+Although DMS-REQ-0097 is derived from OSS-REQ-0131, {\it ``Nightly Summary Products"}, and seems more intended to produce a nightly summary of the general performance of the observatory and the DMS, it is still a requirement to provide scientifically useful detection efficiencies that are the topic of this document. 
 
-\item DMS-REQ-0009\dmreq{0009}, {\it ``Simulated Data"}, specifies that {\it ``the DMS shall provide the ability to inject artificial or simulated data into data products to assess the functional and temporal performance of the production processing software"} (Section 3.2.1).
+\item DMS-REQ-0009\dmreq{0009}, {\it ``Simulated Data"}, specifies that {\it ``the DMS shall provide the ability to inject artificial or simulated data into data products to assess the functional and temporal performance of the production processing software"} (Section 3.2.1), and detection efficiencies would be part of that performance assessment.
 This requirement is derived in part from OSS requirements 0351, 0353, and 0354 discussed above.
 
 \end{itemize}

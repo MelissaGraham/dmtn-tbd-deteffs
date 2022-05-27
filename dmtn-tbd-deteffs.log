@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  9 APR 2022 17:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  27 MAY 2022 03:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1467,42 +1467,42 @@ number indent by \l@... (toc, 2):  16.42499pt
 text indent by \l@... (toc, 2):  25.18501pt
 number indent by parent (toc, 2):  13.57797pt
 text indent calculated (toc, 2): 22.18466pt
-number indent calculated (toc, 2): 13.57797pt
+number indent calculated (toc, 2): 16.42499pt
 number indent by \l@... (toc, 3):  41.61002pt
 text indent by \l@... (toc, 3):  35.03995pt
-number indent by parent (toc, 3):  35.76263pt
+number indent by parent (toc, 3):  38.60965pt
 text indent calculated (toc, 3): 30.72565pt
-number indent calculated (toc, 3): 35.76263pt
+number indent calculated (toc, 3): 41.61002pt
 number indent by \l@... (toc, 3):  41.61002pt
 text indent by \l@... (toc, 3):  35.03995pt
-number indent by parent (toc, 3):  35.76263pt
+number indent by parent (toc, 3):  38.60965pt
 text indent calculated (toc, 3): 30.72565pt
-number indent calculated (toc, 3): 35.76263pt
+number indent calculated (toc, 3): 41.61002pt
 number indent by \l@... (toc, 3):  41.61002pt
 text indent by \l@... (toc, 3):  35.03995pt
-number indent by parent (toc, 3):  35.76263pt
+number indent by parent (toc, 3):  38.60965pt
 text indent calculated (toc, 3): 30.72565pt
-number indent calculated (toc, 3): 35.76263pt
+number indent calculated (toc, 3): 41.61002pt
 number indent by \l@... (toc, 3):  41.61002pt
 text indent by \l@... (toc, 3):  35.03995pt
-number indent by parent (toc, 3):  35.76263pt
+number indent by parent (toc, 3):  38.60965pt
 text indent calculated (toc, 3): 30.72565pt
-number indent calculated (toc, 3): 35.76263pt
+number indent calculated (toc, 3): 41.61002pt
 number indent by \l@... (toc, 2):  16.42499pt
 text indent by \l@... (toc, 2):  25.18501pt
 number indent by parent (toc, 2):  13.57797pt
 text indent calculated (toc, 2): 22.18466pt
-number indent calculated (toc, 2): 13.57797pt
+number indent calculated (toc, 2): 16.42499pt
 number indent by \l@... (toc, 2):  16.42499pt
 text indent by \l@... (toc, 2):  25.18501pt
 number indent by parent (toc, 2):  13.57797pt
 text indent calculated (toc, 2): 22.18466pt
-number indent calculated (toc, 2): 13.57797pt
+number indent calculated (toc, 2): 16.42499pt
 number indent by \l@... (toc, 2):  16.42499pt
 text indent by \l@... (toc, 2):  25.18501pt
 number indent by parent (toc, 2):  13.57797pt
 text indent calculated (toc, 2): 22.18466pt
-number indent calculated (toc, 2): 13.57797pt
+number indent calculated (toc, 2): 16.42499pt
 number indent by \l@... (toc, 1):  0.0pt
 text indent by \l@... (toc, 1):  16.42499pt
 number indent by parent (toc, 1):  0.0pt
@@ -1512,27 +1512,27 @@ number indent by \l@... (toc, 2):  16.42499pt
 text indent by \l@... (toc, 2):  25.18501pt
 number indent by parent (toc, 2):  13.57797pt
 text indent calculated (toc, 2): 22.18466pt
-number indent calculated (toc, 2): 13.57797pt
+number indent calculated (toc, 2): 16.42499pt
 number indent by \l@... (toc, 2):  16.42499pt
 text indent by \l@... (toc, 2):  25.18501pt
 number indent by parent (toc, 2):  13.57797pt
 text indent calculated (toc, 2): 22.18466pt
-number indent calculated (toc, 2): 13.57797pt
+number indent calculated (toc, 2): 16.42499pt
 number indent by \l@... (toc, 2):  16.42499pt
 text indent by \l@... (toc, 2):  25.18501pt
 number indent by parent (toc, 2):  13.57797pt
 text indent calculated (toc, 2): 22.18466pt
-number indent calculated (toc, 2): 13.57797pt
+number indent calculated (toc, 2): 16.42499pt
 number indent by \l@... (toc, 2):  16.42499pt
 text indent by \l@... (toc, 2):  25.18501pt
 number indent by parent (toc, 2):  13.57797pt
 text indent calculated (toc, 2): 22.18466pt
-number indent calculated (toc, 2): 13.57797pt
+number indent calculated (toc, 2): 16.42499pt
 number indent by \l@... (toc, 2):  16.42499pt
 text indent by \l@... (toc, 2):  25.18501pt
 number indent by parent (toc, 2):  13.57797pt
 text indent calculated (toc, 2): 22.18466pt
-number indent calculated (toc, 2): 13.57797pt
+number indent calculated (toc, 2): 16.42499pt
 number indent by \l@... (toc, 1):  0.0pt
 text indent by \l@... (toc, 1):  16.42499pt
 number indent by parent (toc, 1):  0.0pt
@@ -1547,27 +1547,27 @@ number indent by \l@... (toc, 2):  16.42499pt
 text indent by \l@... (toc, 2):  25.18501pt
 number indent by parent (toc, 2):  13.57797pt
 text indent calculated (toc, 2): 22.18466pt
-number indent calculated (toc, 2): 13.57797pt
+number indent calculated (toc, 2): 16.42499pt
 number indent by \l@... (toc, 2):  16.42499pt
 text indent by \l@... (toc, 2):  25.18501pt
 number indent by parent (toc, 2):  13.57797pt
 text indent calculated (toc, 2): 22.18466pt
-number indent calculated (toc, 2): 13.57797pt
+number indent calculated (toc, 2): 16.42499pt
 number indent by \l@... (toc, 2):  16.42499pt
 text indent by \l@... (toc, 2):  25.18501pt
 number indent by parent (toc, 2):  13.57797pt
 text indent calculated (toc, 2): 22.18466pt
-number indent calculated (toc, 2): 13.57797pt
+number indent calculated (toc, 2): 16.42499pt
 number indent by \l@... (toc, 2):  16.42499pt
 text indent by \l@... (toc, 2):  25.18501pt
 number indent by parent (toc, 2):  13.57797pt
 text indent calculated (toc, 2): 22.18466pt
-number indent calculated (toc, 2): 13.57797pt
+number indent calculated (toc, 2): 16.42499pt
 number indent by \l@... (toc, 2):  16.42499pt
 text indent by \l@... (toc, 2):  25.18501pt
 number indent by parent (toc, 2):  13.57797pt
 text indent calculated (toc, 2): 22.18466pt
-number indent calculated (toc, 2): 13.57797pt
+number indent calculated (toc, 2): 16.42499pt
 number indent by \l@... (toc, 1):  0.0pt
 text indent by \l@... (toc, 1):  16.42499pt
 number indent by parent (toc, 1):  0.0pt
@@ -1588,12 +1588,17 @@ LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 (Font)              scaled to size 17.28pt on input line 31.
 File: rubin_logo.png Graphic file (type png)
 <use rubin_logo.png>
-Package pdftex.def Info: rubin_logo.png  used on input line 62.
+Package pdftex.def Info: rubin_logo.png  used on input line 63.
 (pdftex.def)             Requested size: 572.18507pt x 46.39616pt.
  [1
 
 ]
-Overfull \hbox (17.06961pt too wide) in paragraph at lines 82--85
+File: rubin_logo.png Graphic file (type png)
+<use rubin_logo.png>
+Package pdftex.def Info: rubin_logo.png  used on input line 68.
+(pdftex.def)             Requested size: 572.18507pt x 46.39616pt.
+ [2]
+Overfull \hbox (17.06961pt too wide) in paragraph at lines 88--91
 []\T1/fos/m/n/10.95 A spe-cific ex-am-ple of how users might ap-ply $\OML/ntxmi
 /m/it/10.95 ^^Q\LMS/ntxsy/m/n/10.95 ¹\OML/ntxmi/m/it/10.95 m; []\LMS/ntxsy/m/n/
 10.95 º$ \T1/fos/m/n/10.95 in their anal-y-sis is pro-vided in Ap-pendix []A.1.
@@ -1602,42 +1607,42 @@ Overfull \hbox (17.06961pt too wide) in paragraph at lines 82--85
 
 File: rubin_logo.png Graphic file (type png)
 <use rubin_logo.png>
-Package pdftex.def Info: rubin_logo.png  used on input line 85.
+Package pdftex.def Info: rubin_logo.png  used on input line 91.
 (pdftex.def)             Requested size: 572.18507pt x 46.39616pt.
-[2
+[3
 
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 89.
+(Font)              size <5> substituted on input line 95.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 89.
+(Font)              size <5> substituted on input line 95.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 89.
+(Font)              size <5> substituted on input line 95.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 89.
+(Font)              size <5> substituted on input line 95.
 
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 89.
+(Font)              size <5> substituted on input line 95.
 
 
 LaTeX Font Warning: Font shape `U/esvect/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 89.
+(Font)              size <5> substituted on input line 95.
 
 LaTeX Font Info:    Font shape `T1/fos/bx/n' in size <9> not available
-(Font)              Font shape `T1/fos/b/n' tried instead on input line 94.
+(Font)              Font shape `T1/fos/b/n' tried instead on input line 100.
 File: rubin_logo.png Graphic file (type png)
 <use rubin_logo.png>
-Package pdftex.def Info: rubin_logo.png  used on input line 119.
+Package pdftex.def Info: rubin_logo.png  used on input line 125.
 (pdftex.def)             Requested size: 572.18507pt x 46.39616pt.
-[3] (./dmtn-tbd-deteffs.bbl
+[4] (./dmtn-tbd-deteffs.bbl
 Underfull \hbox (badness 1337) in paragraph at lines 32--35
 []\T1/fos/m/n/10.95 Choi, Y., Gib-son, R.R., Becker, A.C., et al., 2014, ApJ, 7
 82, 37 ([]\T1/zi4/m/n/10.95 arXiv:1312.4957[]\T1/fos/m/n/10.95 ),
@@ -1671,7 +1676,7 @@ File: rubin_logo.png Graphic file (type png)
 <use rubin_logo.png>
 Package pdftex.def Info: rubin_logo.png  used on input line 112.
 (pdftex.def)             Requested size: 572.18507pt x 46.39616pt.
-[4
+[5
 
 ]
 Underfull \hbox (badness 1430) in paragraph at lines 115--118
@@ -1688,9 +1693,9 @@ Underfull \hbox (badness 2261) in paragraph at lines 141--144
 )
 File: rubin_logo.png Graphic file (type png)
 <use rubin_logo.png>
-Package pdftex.def Info: rubin_logo.png  used on input line 125.
+Package pdftex.def Info: rubin_logo.png  used on input line 131.
 (pdftex.def)             Requested size: 572.18507pt x 46.39616pt.
- [5] (./ap_sci.tex
+ [6] (./ap_sci.tex
 Overfull \hbox (0.87952pt too wide) in paragraph at lines 20--22
 \T1/fos/m/n/10.95 Transient events such as stel-lar ex-plo-sions (su-per-novae,
  kilo-no-vae) and tidal dis-rup-tion events
@@ -1700,71 +1705,79 @@ File: rubin_logo.png Graphic file (type png)
 <use rubin_logo.png>
 Package pdftex.def Info: rubin_logo.png  used on input line 28.
 (pdftex.def)             Requested size: 572.18507pt x 46.39616pt.
-[6
+[7
 
 ]
 File: rubin_logo.png Graphic file (type png)
 <use rubin_logo.png>
 Package pdftex.def Info: rubin_logo.png  used on input line 46.
 (pdftex.def)             Requested size: 572.18507pt x 46.39616pt.
- [7]
+ [8]
 File: rubin_logo.png Graphic file (type png)
 <use rubin_logo.png>
 Package pdftex.def Info: rubin_logo.png  used on input line 66.
 (pdftex.def)             Requested size: 572.18507pt x 46.39616pt.
- [8]
+ [9]
 File: rubin_logo.png Graphic file (type png)
 <use rubin_logo.png>
 Package pdftex.def Info: rubin_logo.png  used on input line 95.
 (pdftex.def)             Requested size: 572.18507pt x 46.39616pt.
- [9]
+ [10]
 File: rubin_logo.png Graphic file (type png)
 <use rubin_logo.png>
 Package pdftex.def Info: rubin_logo.png  used on input line 116.
 (pdftex.def)             Requested size: 572.18507pt x 46.39616pt.
- [10])
+ [11])
 File: rubin_logo.png Graphic file (type png)
 <use rubin_logo.png>
-Package pdftex.def Info: rubin_logo.png  used on input line 128.
+Package pdftex.def Info: rubin_logo.png  used on input line 134.
 (pdftex.def)             Requested size: 572.18507pt x 46.39616pt.
- [11] (./ap_docs.tex
+ [12] (./ap_docs.tex
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+
+LaTeX Warning: Marginpar on page 13 moved.
+
 File: rubin_logo.png Graphic file (type png)
 <use rubin_logo.png>
-Package pdftex.def Info: rubin_logo.png  used on input line 30.
+Package pdftex.def Info: rubin_logo.png  used on input line 28.
 (pdftex.def)             Requested size: 572.18507pt x 46.39616pt.
- [12
+[13
 
 ]
-LaTeX Font Info:    Try loading font information for TS1+fos on input line 35.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/opensans/ts1fos.fd
+LaTeX Font Info:    Try loading font information for TS1+fos on input line 36.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/opensans/ts1fos.fd
 File: ts1fos.fd 2011/11/11 Fontinst v1.927 font definitions for TS1/fos.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
 [] \T1/fos/m/n/6 transCom-plete-ness-
  []
 
 
-LaTeX Warning: Marginpar on page 13 moved.
+LaTeX Warning: Marginpar on page 14 moved.
 
 
-LaTeX Warning: Marginpar on page 13 moved.
+LaTeX Warning: Marginpar on page 14 moved.
 
 File: rubin_logo.png Graphic file (type png)
 <use rubin_logo.png>
-Package pdftex.def Info: rubin_logo.png  used on input line 53.
+Package pdftex.def Info: rubin_logo.png  used on input line 49.
 (pdftex.def)             Requested size: 572.18507pt x 46.39616pt.
-[13]
+[14]
 File: rubin_logo.png Graphic file (type png)
 <use rubin_logo.png>
-Package pdftex.def Info: rubin_logo.png  used on input line 81.
+Package pdftex.def Info: rubin_logo.png  used on input line 78.
 (pdftex.def)             Requested size: 572.18507pt x 46.39616pt.
- [14])
+ [15])
 File: rubin_logo.png Graphic file (type png)
 <use rubin_logo.png>
-Package pdftex.def Info: rubin_logo.png  used on input line 131.
+Package pdftex.def Info: rubin_logo.png  used on input line 137.
 (pdftex.def)             Requested size: 572.18507pt x 46.39616pt.
- [15] (./ap_rb.tex
+ [16] (./ap_rb.tex
 Overfull \hbox (7.86569pt too wide) in paragraph at lines 13--14
 \T1/zi4/m/n/10.95 DIASources \T1/fos/m/n/10.95 to sep-a-rate the "real" from th
 e "bo-gus", and to thereby ob-tain a sub-set of \T1/zi4/m/n/10.95 DIASources
@@ -1774,20 +1787,20 @@ File: rubin_logo.png Graphic file (type png)
 <use rubin_logo.png>
 Package pdftex.def Info: rubin_logo.png  used on input line 28.
 (pdftex.def)             Requested size: 572.18507pt x 46.39616pt.
-[16
+[17
 
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <5.5> not available
 (Font)              size <5> substituted on input line 28.
 
-<figures/Brink_etal_2013_Fig3.jpg, id=393, 125.268pt x 83.5923pt>
+<figures/Brink_etal_2013_Fig3.jpg, id=401, 125.268pt x 83.5923pt>
 File: figures/Brink_etal_2013_Fig3.jpg Graphic file (type jpg)
 <use figures/Brink_etal_2013_Fig3.jpg>
 Package pdftex.def Info: figures/Brink_etal_2013_Fig3.jpg  used on input line 3
 7.
 (pdftex.def)             Requested size: 227.62204pt x 151.89583pt.
-<figures/Brink_etal_2013_Fig7.jpg, id=395, 125.268pt x 82.8696pt>
+<figures/Brink_etal_2013_Fig7.jpg, id=403, 125.268pt x 82.8696pt>
 File: figures/Brink_etal_2013_Fig7.jpg Graphic file (type jpg)
 <use figures/Brink_etal_2013_Fig7.jpg>
 Package pdftex.def Info: figures/Brink_etal_2013_Fig7.jpg  used on input line 3
@@ -1796,19 +1809,19 @@ Package pdftex.def Info: figures/Brink_etal_2013_Fig7.jpg  used on input line 3
 )
 File: rubin_logo.png Graphic file (type png)
 <use rubin_logo.png>
-Package pdftex.def Info: rubin_logo.png  used on input line 133.
+Package pdftex.def Info: rubin_logo.png  used on input line 139.
 (pdftex.def)             Requested size: 572.18507pt x 46.39616pt.
- [17 <./figures/Brink_etal_2013_Fig3.jpg> <./figures/Brink_etal_2013_Fig7.jpg>]
+ [18 <./figures/Brink_etal_2013_Fig3.jpg> <./figures/Brink_etal_2013_Fig7.jpg>]
 File: rubin_logo.png Graphic file (type png)
 <use rubin_logo.png>
-Package pdftex.def Info: rubin_logo.png  used on input line 134.
+Package pdftex.def Info: rubin_logo.png  used on input line 140.
 (pdftex.def)             Requested size: 572.18507pt x 46.39616pt.
- [18] (./ap_opts.tex
+ [19] (./ap_opts.tex
 File: rubin_logo.png Graphic file (type png)
 <use rubin_logo.png>
 Package pdftex.def Info: rubin_logo.png  used on input line 29.
 (pdftex.def)             Requested size: 572.18507pt x 46.39616pt.
- [19
+ [20
 
 ]
 File: rubin_logo.png Graphic file (type png)
@@ -1817,25 +1830,25 @@ Package pdftex.def Info: rubin_logo.png  used on input line 64.
 (pdftex.def)             Requested size: 572.18507pt x 46.39616pt.
 LaTeX Font Info:    Font shape `T1/fos/bx/n' in size <142.26378> not available
 (Font)              Font shape `T1/fos/b/n' tried instead on input line 64.
- [20])
+ [21])
 File: rubin_logo.png Graphic file (type png)
 <use rubin_logo.png>
-Package pdftex.def Info: rubin_logo.png  used on input line 137.
+Package pdftex.def Info: rubin_logo.png  used on input line 143.
 (pdftex.def)             Requested size: 572.18507pt x 46.39616pt.
- [21] (./ap_tech.tex)
+ [22] (./ap_tech.tex)
 File: rubin_logo.png Graphic file (type png)
 <use rubin_logo.png>
-Package pdftex.def Info: rubin_logo.png  used on input line 140.
+Package pdftex.def Info: rubin_logo.png  used on input line 146.
 (pdftex.def)             Requested size: 572.18507pt x 46.39616pt.
- [22
+ [23
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 146.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 146.
 
 (./dmtn-tbd-deteffs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 146.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 146.
 Package rerunfilecheck Info: File `dmtn-tbd-deteffs.out' has not changed.
 (rerunfilecheck)             Checksum: DE6CD79FF84D9FFB8D1C5244D97668E4;2092.
 
@@ -1845,8 +1858,8 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 26560 strings out of 492649
- 451480 string characters out of 6129622
+ 26564 strings out of 492649
+ 451505 string characters out of 6129622
  614046 words of memory out of 5000000
  29564 multiletter control sequences out of 15000+600000
  178654 words of font info for 304 fonts, out of 8000000 for 9000
@@ -1877,10 +1890,10 @@ ype1/public/txfonts/txmia.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
 ublic/newtx/txsys.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times
 /utmri8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/esvect/vect
 10.pfb>
-Output written on dmtn-tbd-deteffs.pdf (26 pages, 545896 bytes).
+Output written on dmtn-tbd-deteffs.pdf (27 pages, 547440 bytes).
 PDF statistics:
- 537 PDF objects out of 1000 (max. 8388607)
- 473 compressed objects within 5 object streams
- 88 named destinations out of 1000 (max. 500000)
+ 545 PDF objects out of 1000 (max. 8388607)
+ 480 compressed objects within 5 object streams
+ 92 named destinations out of 1000 (max. 500000)
  250 words of extra memory for PDF output out of 10000 (max. 10000000)
 
